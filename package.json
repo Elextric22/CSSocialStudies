@@ -2,6 +2,7 @@
   "name": "cssocialstudies",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://elextric22.github.io/cs-socialstudies/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
