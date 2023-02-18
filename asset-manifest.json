@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cs-socialstudies/static/css/main.073c9b0a.css",
-    "main.js": "/cs-socialstudies/static/js/main.6d77f632.js",
+    "main.css": "/cs-socialstudies/static/css/main.08aabb56.css",
+    "main.js": "/cs-socialstudies/static/js/main.35291abc.js",
     "static/js/787.d091ff1b.chunk.js": "/cs-socialstudies/static/js/787.d091ff1b.chunk.js",
     "static/media/stupid.png": "/cs-socialstudies/static/media/stupid.05d9bc3cdce897f7b303.png",
     "index.html": "/cs-socialstudies/index.html",
-    "main.073c9b0a.css.map": "/cs-socialstudies/static/css/main.073c9b0a.css.map",
-    "main.6d77f632.js.map": "/cs-socialstudies/static/js/main.6d77f632.js.map",
+    "main.08aabb56.css.map": "/cs-socialstudies/static/css/main.08aabb56.css.map",
+    "main.35291abc.js.map": "/cs-socialstudies/static/js/main.35291abc.js.map",
     "787.d091ff1b.chunk.js.map": "/cs-socialstudies/static/js/787.d091ff1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6d77f632.js"
+    "static/css/main.08aabb56.css",
+    "static/js/main.35291abc.js"
   ]
 }
