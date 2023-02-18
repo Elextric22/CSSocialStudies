@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/cs-socialstudies/static/css/main.073c9b0a.css",
-    "main.js": "/cs-socialstudies/static/js/main.60ff36df.js",
+    "main.js": "/cs-socialstudies/static/js/main.6d77f632.js",
     "static/js/787.d091ff1b.chunk.js": "/cs-socialstudies/static/js/787.d091ff1b.chunk.js",
-    "static/media/logo.svg": "/cs-socialstudies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/stupid.png": "/cs-socialstudies/static/media/stupid.05d9bc3cdce897f7b303.png",
     "index.html": "/cs-socialstudies/index.html",
     "main.073c9b0a.css.map": "/cs-socialstudies/static/css/main.073c9b0a.css.map",
-    "main.60ff36df.js.map": "/cs-socialstudies/static/js/main.60ff36df.js.map",
+    "main.6d77f632.js.map": "/cs-socialstudies/static/js/main.6d77f632.js.map",
     "787.d091ff1b.chunk.js.map": "/cs-socialstudies/static/js/787.d091ff1b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.60ff36df.js"
+    "static/js/main.6d77f632.js"
   ]
 }
