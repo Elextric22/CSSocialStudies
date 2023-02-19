@@ -1,60 +1,34 @@
-import logo from './stupid.png';
+import logo from './idk.png';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap"
 import './App.css';
+import Navbar from './Navbar';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import Censorship from './pages/Censorship';
+import Immortalyiyty from './pages/Immortalyiyty';
+import Legalism from './pages/Legalism';
+import ModernDay from './pages/ModernDay';
 
 function App() {
   return (
+    <Router>
     <div className="App">
+      <Navbar/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          rha
-        </a>
+        
       </header>
       <main>
-      <div className="accordion accordion-flush" id="accordionFlushExample">
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="flush-headingOne">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        yea
-      </button>
-    </h2>
-    <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div className="accordion-body">shtu up <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/censorship" element={<Censorship/>} />
+            <Route path="/immortaly" element={<Immortalyiyty/>} />
+            <Route path="/legalism" element={<Legalism/>} />
+            <Route path="/modernday" element={<ModernDay/>} />
+          </Routes>
+            </main>
     </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="flush-headingTwo">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-    </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="flush-headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-    </div>
-  </div>
-</div>
-      </main>
-    </div>
+        </Router>
   );
 }
 
